@@ -1,34 +1,5 @@
 toast('auto.js start');
 
-
-// const killapp = () => {
-//     var name = getPackageName(packageName);
-//     if (!name) {
-//         if (getAppName(packageName)) {
-//             name = packageName;
-//         } else {
-//             return false;
-//         }
-//     }
-//     app.openAppSetting(name);
-//     text(app.getAppName(name)).waitFor();
-//     let is_sure = textMatches(/(.*强.*|.*停.*|.*结.*|.*行.*)/).findOne();
-//     if (is_sure.enabled()) {
-//         textMatches(/(.*强.*|.*停.*|.*结.*|.*行.*)/).findOne().click();
-//         buttons=textMatches(/(.*强.*|.*停.*|.*结.*|.*行.*|确定|是)/).find()
-//         if(buttons.length>0){
-//             buttons[buttons.length-1].click()
-//         }
-        
-//         log(app.getAppName(name) + "应用已被关闭");
-//         sleep(1000);
-//         back();
-//     } else {
-//         log(app.getAppName(name) + "应用不能被正常关闭或不在后台运行");
-//         back();
-//     }
-// }
-
 const init = () => {
 
     var appName = '叮咚买菜';
